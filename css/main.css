@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ header {
 
 .header-top li a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--light-gray);
 }
 
 .header-top li a:hover {
@@ -57,10 +57,18 @@ header {
     color: var(--light-blue);
 }
 
+.header-info {
+    margin-right: 50px;
+}
+
 .header-info h1 {
     font-weight: bold;
     font-size: 48px;
     margin-bottom: 5px;
+}
+
+.header-info p {
+    color: var(--light-gray);
 }
 
 .header-main .header-img img {
@@ -107,9 +115,15 @@ header {
 
 .main-quote {
     background-color: var(--light-gray);
-    padding: 80px;
+    padding: 100px 400px;
     font-size: 36px;
     font-weight: lighter;
+}
+
+.main-quote .quote-source {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .main-action {
